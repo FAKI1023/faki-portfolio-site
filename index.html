@@ -110,7 +110,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;height:50px;display:flex;ali
 .music-info{flex:1;min-width:0;display:flex;flex-direction:column;gap:0.5rem;color:#fff;justify-content:center;overflow:hidden}
 .music-pill{display:inline-flex;align-items:center;gap:0.4rem;background:rgba(41,212,232,0.08);border:0.5px solid rgba(41,212,232,0.22);padding:0.28rem 0.9rem;border-radius:100px;font-size:0.58rem;letter-spacing:0.16em;color:#2ad4e8;width:fit-content}
 .music-t{font-size:clamp(0.95rem,2.5vw,1.15rem);font-weight:200;letter-spacing:-0.01em;color:#fff;margin-bottom:0.1rem}
-.music-body{font-size:clamp(0.65rem,1.8vw,0.72rem);color:rgba(255,255,255,0.62);line-height:1.55;letter-spacing:0.01em;word-break:break-word;overflow-wrap:anywhere;margin-bottom:0.3rem}
+.music-body{font-size:0.85rem;color:rgba(255,255,255,0.62);line-height:1.85;letter-spacing:0.01em;word-break:break-word;margin-bottom:0.75rem}
 .music-body:last-of-type{margin-bottom:0}
 .music-links{display:flex;flex-direction:column;gap:0.6rem;margin-top:1.25rem;align-items:flex-start}
 .music-link{display:inline-flex;align-items:center;gap:0.5rem;padding:0.45rem 1.1rem;background:rgba(0,120,200,0.25);border-radius:100px;text-decoration:none;font-size:0.68rem;color:#fff;letter-spacing:0.05em}
@@ -194,7 +194,6 @@ footer{padding:2.25rem 2.5rem;border-top:0.5px solid rgba(255,255,255,0.09);disp
   #profile{grid-template-columns:1fr;gap:2.5rem;padding:5rem 1.5rem}
   .profile-img{max-width:100%;min-height:auto;aspect-ratio:3/4}
   .p-name{font-size:1.6rem}
-  .gear-grid{grid-template-columns:1fr}
   #photo-work{padding:4rem 0}
   .photo-header{padding:0 1.5rem;margin-bottom:1.5rem}
   .icon-links{padding:0 1.5rem}
@@ -231,13 +230,6 @@ footer{padding:2.25rem 2.5rem;border-top:0.5px solid rgba(255,255,255,0.09);disp
   #contact{padding:5rem 1.5rem 4rem}
   .form-row{grid-template-columns:1fr}
   footer{padding:2rem 1.5rem;flex-direction:column;gap:0.5rem;text-align:center}
-  .p-text{font-size:0.85rem;line-height:1.95;text-align:center}
-  .p-name{font-size:1.6rem}
-  .s-title{font-size:1.6rem}
-  .yt-tagline{font-size:0.95rem}
-  .yt-desc{font-size:0.85rem}
-  .music-body{font-size:0.85rem;line-height:1.85}
-  .music-t{font-size:1.1rem}
   /* 縦画面: 全セクション中央揃え */
   .profile-text{text-align:center}
   .p-name-ja{text-align:center}
@@ -327,10 +319,10 @@ footer{padding:2.25rem 2.5rem;border-top:0.5px solid rgba(255,255,255,0.09);disp
     <span class="p-label">Profile</span>
     <h2 class="p-name">Isamu Fakir</h2>
     <p class="p-name-ja">ファキール 勇武</p>
-    <p class="p-text">映像・写真・音楽を通して、自分の想いや経験を形にしています。</p>
-    <p class="p-text">大切にしているのは、<br>その作品が、誰かの背中を押したり、前に進むきっかけになること。</p>
-    <p class="p-text">さらには依頼してくださった方の想いや世界観を、魅力として最大限引き出せるよう心がけています。</p>
-    <p class="p-text">その先に、観てくれた人や聴いてくれた人の心が少しでも動いて、<br>みなさんの力になれるような存在でありたいです。</p>
+    <p class="p-text">映像・写真・音楽を通して、<br>自分の想いや経験を形にしています。</p>
+    <p class="p-text">大切にしているのは、<br>その作品が誰かの背中を押したり、<br>前に進むきっかけになること。</p>
+    <p class="p-text">依頼してくださった方の想いや世界観を、<br>魅力として最大限引き出せるよう心がけています。</p>
+    <p class="p-text">その先に、観てくれた人や聴いてくれた人の心が<br>少しでも動いて、みなさんの力になれる存在でありたいです。</p>
     <p class="p-text">写真は "瞬間" を、映像は "物語" を、音楽は "心の声" を。</p>
     <span class="gear-lbl">機材リスト</span>
     <div class="gear-grid">
@@ -414,7 +406,7 @@ footer{padding:2.25rem 2.5rem;border-top:0.5px solid rgba(255,255,255,0.09);disp
             <div class="music-pill">&#9679;&nbsp; 1st Single · Now Streaming</div>
             <h3 class="music-t">Memorie&quot;day&quot;s</h3>
             <p class="music-body">写真や映像と同じく、音楽も"自分の表現"のひとつ。</p>
-            <p class="music-body">FAKIの1stシングル「Memorie"day"s」は、記憶と日常をテーマに制作。<br>Apple Music・Spotifyほか各プラットフォームにて配信中。</p>
+            <p class="music-body">FAKIの1stシングル「Memorie"day"s」は、<br>記憶と日常をテーマに制作。<br>Apple Music・Spotifyほか各プラットフォームにて配信中。</p>
           </div>
         </div>
         <div class="music-links" data-reveal-fade>
@@ -518,7 +510,7 @@ footer{padding:2.25rem 2.5rem;border-top:0.5px solid rgba(255,255,255,0.09);disp
 </div>
 
 <footer>
-  <span class="footer-copy">© 2026 Isamu Fakir. All rights reserved.</span>
+  <span class="footer-copy">© 2026 Brave・Samurai. All rights reserved.</span>
 </footer>
 
 <script>
